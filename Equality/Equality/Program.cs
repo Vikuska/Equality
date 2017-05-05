@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Equality.ImplementingEqualityforReferenceTypes;
+using Equality.ImplementingEqualityForValueTypes;
 
 
 namespace Equality
@@ -14,8 +16,9 @@ namespace Equality
         {
             //_1General.Run();
             //_2EqualityInDotNet.Run();
-            _3TheCSharpEqualityOperator.Run();
-
+            //_3TheCSharpEqualityOperator.Run();
+            //_4ImplementingEqualityForValueTypes.Run();
+            _5Implementing_Equality_for_Reference_Types.Run();
 
             Console.ReadLine();
 

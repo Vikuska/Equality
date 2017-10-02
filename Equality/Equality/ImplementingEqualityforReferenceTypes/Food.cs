@@ -12,7 +12,8 @@ namespace Equality.ImplementingEqualityforReferenceTypes
     {
         public static bool operator ==(Food x, Food y)
         {
-            return object.Equals(x, y);
+            return object.Equals(x, y); //TO WORK PROPERLY WITH INHERETENCE - call static obj.eq method! (WILL CKECK FOR NULL AND CALL virtual method)
+            //return x._name == y._name && x._group == y._group; //WROOOONGGG!!!!!! - will not check child fields!!
         }
 
         public static bool operator !=(Food x, Food y)
@@ -20,7 +21,7 @@ namespace Equality.ImplementingEqualityforReferenceTypes
             return !object.Equals(x, y);
         }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object obj) //equality logic should be in virtual method (TO WORK PROPERLY WITH INHERETENCE)
         {
             if (obj == null)
                 return false;

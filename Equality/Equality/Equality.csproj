@@ -44,8 +44,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10StructuralEqualityAndComparisons\StructuralEquality\_10StructuralEquality.cs" />
     <Compile Include="1General.cs" />
     <Compile Include="2EqualityInDotNet.cs" />
+    <Compile Include="6Comparisons\CalorieCount.cs" />
+    <Compile Include="6Comparisons\_6CalorieCountCompareImplmentingComparisonsForValueType.cs" />
+    <Compile Include="6Comparisons\_6StringIntCompare.cs" />
+    <Compile Include="7Strings\_7CompareStringsDemo.cs" />
+    <Compile Include="7Strings\_7OrdinalCompareStrings.cs" />
+    <Compile Include="7Strings\_7Pooling.cs" />
+    <Compile Include="7Strings\_7StringEquality.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\EqualityComparerDemo\FoodItem.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\EqualityComparerDemo\FoodItemEqualityComparer.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\EqualityComparerDemo\_8EqualityComparerDemo.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\InconsistentSorting\CookedFood.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\InconsistentSorting\Food.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\InconsistentSorting\FoodNameComparer.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\InconsistentSorting\_8InconsistentSorting.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\SortItems\Food.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\SortItems\FoodNameComparer.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\SortItems\_8SortItems.cs" />
+    <Compile Include="8ComparersAndEqualityComparers\StringComparers\_8StringComparers.cs" />
+    <Compile Include="9HashCodesaAndHashtables\EqualityComparerDemo\FoodItem.cs" />
+    <Compile Include="9HashCodesaAndHashtables\EqualityComparerDemo\FoodItemEqualityComparer.cs" />
+    <Compile Include="9HashCodesaAndHashtables\EqualityComparerDemo\_9EqualityComparerDemo.cs" />
+    <Compile Include="9HashCodesaAndHashtables\FoodNameEquality\FoodItem.cs" />
+    <Compile Include="9HashCodesaAndHashtables\FoodNameEquality\FoodNameEqualityComparer.cs" />
+    <Compile Include="9HashCodesaAndHashtables\FoodNameEquality\_9FoodNameEquality.cs" />
+    <Compile Include="9HashCodesaAndHashtables\ValueTypeEquality\FoodItem.cs" />
+    <Compile Include="9HashCodesaAndHashtables\ValueTypeEquality\_9ValueTypeEquality.cs" />
     <Compile Include="ImplementingEqualityforReferenceTypes\5Implementing Equality for Reference Types.cs" />
     <Compile Include="ImplementingEqualityforReferenceTypes\CookedFood.cs" />
     <Compile Include="ImplementingEqualityforReferenceTypes\Food.cs" />
